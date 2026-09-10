@@ -1,7 +1,7 @@
 <div align="center">
 
 # ⌨️ Key Remapper (Broken Ctrl Fix)
-### *Aplikasi Windows Native C++ Portabel untuk Mengatasi Tombol Ctrl Rusak pada Laptop (Acer Predator)*
+### *Aplikasi Windows Native C++ Portabel untuk Menyelamatkan Tombol Ctrl yang "Pensiun Dini" (Khususnya Korban Laptop Acer Predator)*
 
 [![Platform](https://img.shields.io/badge/Platform-Windows%2010%20%7C%20Windows%2011-0078D6?style=for-the-badge&logo=windows)](https://microsoft.com)
 [![Language](https://img.shields.io/badge/Language-C%2B%2B20%20(Win32%20API)-00599C?style=for-the-badge&logo=c%2B%2B)](https://isocpp.org)
@@ -15,19 +15,27 @@
   <img src="Assets/Icon.png" alt="Key Remapper Logo" width="128" height="128" />
 </p>
 
-**Key Remapper** adalah aplikasi desktop Windows mandiri (100% pure C++ Win32) yang dikembangkan secara independen oleh **[Dedyjagok](https://github.com/Dedyjagok)**. Aplikasi ini dirancang khusus untuk mengatasi kerusakan hardware keyboard laptop (terutama tombol **Left Ctrl** yang sering rusak pada laptop gaming seperti **Acer Predator**, ASUS ROG, Lenovo Legion, dsb.) dengan memanfaatkan tombol fisik **Copilot** Windows 11 atau tombol keyboard lainnya menjadi **Ctrl** secara mulus tanpa latency.
+**Key Remapper** adalah aplikasi desktop Windows mandiri (100% pure C++ Win32) yang dikembangkan oleh **[Dedyjagok](https://github.com/Dedyjagok)**. Aplikasi ini lahir dari jeritan hati pengguna laptop gaming (terutama lini **Acer Predator / Nitro** yang terkenal dengan "penyakit langganan" keyboard-nya) yang mendapati tombol **Left Ctrl** mendadak mogok kerja padahal cicilan laptop mungkin belum lunas. Daripada keluar jutaan rupiah ganti satu set *top-case* ke service center demi sebuah switch membrane yang rapuh, aplikasi ini membajak tombol gimmick **Copilot** Windows 11 yang menganggur dan mengubahnya menjadi tombol **Ctrl** pengganti yang responsif, zero-latency, dan 100% fungsional.
 
 </div>
 
 ---
 
-## 📌 Latar Belakang & Masalah
+## 📌 Latar Belakang: Ketika Laptop Acer Kembali Berulah
 
-Pada banyak seri laptop modern (seperti Acer Predator Helios / Triton), keyboard internal sering kali mengalami kerusakan mekanik atau switch pada tombol **Left Ctrl**. Sementara itu, laptop generasi Windows 11 dilengkapi dengan tombol fisik **Copilot** di jajaran bawah keyboard yang sangat jarang dimanfaatkan.
+Bukan rahasia umum lagi di kalangan pejuang laptop bahwa produk **Acer** (mulai dari seri Aspire, Nitro, hingga Predator yang garang di brosur tapi manja di tombol) kerap menghadirkan kejutan berupa tombol keyboard yang pensiun sebelum waktunya. Korban nomor satu biasanya adalah **Left Ctrl**—tombol paling vital untuk ngoding, kerja, dan gaming (*crouch/prone*).
 
-Aplikasi ini hadir sebagai solusi biner mandiri yang:
-- **100% Native C++**: Tidak memerlukan runtime eksternal, interpreter, atau instalasi software pihak ketiga apa pun.
-- **Portabel**: Cukup unduh satu file executable (`KeyRemapper.exe`) dan langsung jalankan di laptop mana saja.
+Ketika tombol Ctrl di laptop Acer Anda tewas, pilihan resmi yang tersedia biasanya sangat tidak masuk akal:
+1. 💸 **Bawa ke Service Center**: Menunggu berminggu-minggu, bayar ganti satu set modul keyboard utuh hanya karena **satu tombol** rusak.
+2. 🎒 **Bawa Keyboard Eksternal**: Beli laptop gaming tipis dengan harga selangit, tapi kemana-mana tas tetap berat karena harus bawa mechanical keyboard cadangan.
+3. 🧘 **Pasrah & Menerima Nasib**: Mencoba membiasakan diri menekan `Right Ctrl` yang letaknya di ujung dunia.
+
+Sementara itu di keyboard Anda, Microsoft dan pabrikan laptop dengan bangganya menyematkan **tombol fisik Copilot** di jajaran tombol bawah—sebuah tombol yang kira-kira 99% dari kita tidak pernah sentuh seumur hidup.
+
+Aplikasi ini hadir sebagai **solusi cerdas pembangkangan terhadap kualitas keyboard Acer**: manfaatkan tombol Copilot yang nganggur tersebut, jadikan dia **Ctrl sejati**!
+
+- **100% Native C++**: Tanpa Python, tanpa runtime eksternal, tanpa framework bloated, dan bebas dari dependensi pihak ketiga.
+- **Single File & Portabel**: Cukup unduh satu file `.exe` (~230 KB), simpan di mana saja, langsung jalan tanpa instalasi ribet.
 
 ---
 
@@ -128,7 +136,7 @@ AutoHotKey_keybind_swap/
 
 - **Developer**: **[Dedyjagok](https://github.com/Dedyjagok)**
   - GitHub: [@Dedyjagok](https://github.com/Dedyjagok)
-  - Proyek: Solusi Keyboard Hardware Remapping untuk Laptop Acer Predator & Windows 11.
+  - Misi Pribadi: Menyelamatkan produktivitas sesama pejuang laptop Acer dari penderitaan tombol Ctrl yang mokel / pensiun dini.
 
 ---
 
